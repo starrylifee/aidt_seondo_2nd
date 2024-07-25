@@ -173,4 +173,6 @@ if st.session_state.step == 6:
 
 if st.button("다시 시작하기", key="restart"):
     st.session_state.clear()
-    st.experimental_rerun()
+    st.rerun()
+
+st.markdown("제작자: 서울특별시교육청융합과학교육원 정용석")

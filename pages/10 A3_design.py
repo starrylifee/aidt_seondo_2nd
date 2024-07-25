@@ -272,4 +272,7 @@ if st.session_state.step == 9:
 
 if st.button("다시 시작하기", key="restart"):
     st.session_state.clear()
-    st.experimental_rerun()
+    st.rerun()
+
+st.markdown("다른 스타일의 개념기반탐구학습 설계 보조도구 (https://aidt-seondo-2nd.streamlit.app/A3_design2)")
+st.markdown("제작자: 서울특별시교육청융합과학교육원 정용석")

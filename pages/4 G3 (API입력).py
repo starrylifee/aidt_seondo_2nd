@@ -194,4 +194,4 @@ if st.session_state.step == 6:
 
 if st.button("다시 시작하기", key="restart"):
     st.session_state.clear()
-    st.experimental_rerun()
+    st.rerun()
